@@ -15,4 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\FrontendController::class, 'index'])->name('index');
 
+Route::get('/faq', [App\Http\Controllers\FrontendController::class, 'faq'])->name('faq');
+Route::get('/delivery', [App\Http\Controllers\FrontendController::class, 'delivery'])->name('delivery');
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
