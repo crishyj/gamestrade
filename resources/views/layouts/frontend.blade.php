@@ -14,6 +14,7 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="Shortcut Icon" href="/img/favicon.ico" type="image/x-icon" data-markup-id="jupiterx_favicon">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -114,72 +115,73 @@
             
         </nav>
 
-        <div class="secondnav" id="navbarSupportedContent1">
-            <nav class="navbar container secondnav navbar-expand-sm">
-            
-                <!-- Links -->
-                <ul class="navbar-nav ml-auto mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{route('faq')}}">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{route('delivery')}}">DELIVERY & PAYMENT</a>
-                    </li>
-                
-                    <!-- Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            BUY
-                        </a>
-                        <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">CATEGORIES</a>
-                        <a class="dropdown-item" href="#">LISTINGS</a>
-                        <a class="dropdown-item" href="#">CHECKOUT</a>
-                        </div>
-                    </li>
+        <div class="secondnav " id="">
+            <nav class="navbar secondnav container navbar-expand-md">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Links -->
+                    <ul class="navbar-nav ml-auto mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{route('faq')}}">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{route('delivery')}}">DELIVERY & PAYMENT</a>
+                        </li>
+                    
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                BUY
+                            </a>
+                            <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">CATEGORIES</a>
+                            <a class="dropdown-item" href="#">LISTINGS</a>
+                            <a class="dropdown-item" href="#">CHECKOUT</a>
+                            </div>
+                        </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            SELL
-                        </a>
-                        <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">CATEGORIES</a>
-                        <a class="dropdown-item" href="#">SELLING FORM</a>
-                        </div>
-                    </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                SELL
+                            </a>
+                            <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">CATEGORIES</a>
+                            <a class="dropdown-item" href="#">SELLING FORM</a>
+                            </div>
+                        </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            TRADE
-                        </a>
-                        <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">CATEGORIES</a>
-                        <a class="dropdown-item" href="#">TRADING FORM</a>
-                        </div>
-                    </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                TRADE
+                            </a>
+                            <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">CATEGORIES</a>
+                            <a class="dropdown-item" href="#">TRADING FORM</a>
+                            </div>
+                        </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            BORROW
-                        </a>
-                        <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">CATEGORIES</a>
-                        <a class="dropdown-item" href="#">LISTINGS</a>
-                        <a class="dropdown-item" href="#">CHECKOUT</a>
-                        </div>
-                    </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                BORROW
+                            </a>
+                            <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">CATEGORIES</a>
+                            <a class="dropdown-item" href="#">LISTINGS</a>
+                            <a class="dropdown-item" href="#">CHECKOUT</a>
+                            </div>
+                        </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            SERVICES
-                        </a>
-                        <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">CATEGORIES</a>
-                        <a class="dropdown-item" href="#">LISTINGS</a>
-                        </div>
-                    </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                SERVICES
+                            </a>
+                            <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">CATEGORIES</a>
+                            <a class="dropdown-item" href="#">LISTINGS</a>
+                            </div>
+                        </li>
 
-                </ul>
+                    </ul>
+                </div>
             </nav>
         </div>
 

@@ -8,28 +8,31 @@
         </h2>
 
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-lg-2 col-md-6 col-6">
                 <a href="">
                     <img src={{asset('img/game1.jpg')}} alt="" class="home_img">
                 </a>
             </div>
-            <div class="col-sm-2">
+            <div class="col-lg-2 col-md-6 col-6">
                 <a href="">
                     <img src={{asset('img/game2.jpeg')}} alt="" class="home_img">
                 </a>
             </div>
-            <div class="col-sm-4">
+            <div class="col-lg-4 desktop">
                 <iframe class="home_video" src="https://www.youtube.com/embed/JbpeY349JCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col-sm-2">
+            <div class="col-lg-2 col-md-6 col-6">
                 <a href="">
                     <img src={{asset('img/game3.png')}} alt="" class="home_img">
                 </a>
             </div>
-            <div class="col-sm-2">
+            <div class="col-lg-2 col-md-6 col-6">
                 <a href="">
                     <img src={{asset('img/game4.png')}} alt="" class="home_img">
                 </a>
+            </div>
+            <div class="col-md-12 mr-auto ml-auto mt-2 mobile">
+                <iframe class="home_video" src="https://www.youtube.com/embed/JbpeY349JCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </div>
