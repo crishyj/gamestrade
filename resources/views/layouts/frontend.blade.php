@@ -115,8 +115,8 @@
             
         </nav>
 
-        <div class="secondnav " id="">
-            <nav class="navbar secondnav container navbar-expand-md">
+        <div class="secondnav" id="">
+            <nav class="navbar secondnav container navbar-expand-md navbar-hover">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Links -->
                     <ul class="navbar-nav ml-auto mr-auto">
@@ -126,58 +126,170 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('delivery')}}">DELIVERY & PAYMENT</a>
                         </li>
-                    
-                        <!-- Dropdown -->
+
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">
                                 BUY
                             </a>
-                            <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">CATEGORIES</a>
-                            <a class="dropdown-item" href="#">LISTINGS</a>
-                            <a class="dropdown-item" href="#">CHECKOUT</a>
-                            </div>
+                            <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0 shadow">
+
+                                <li class="dropdown-submenu">
+                                    <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">
+                                        Fun & Games
+                                    </a>
+                                    <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 shadow">
+                                        <li><a class="dropdown-item" href="#">Video Games</a></li>
+                                        <li><a class="dropdown-item" href="#">Consoles</a></li>
+                                        <li><a class="dropdown-item" href="#">Gadgets</a></li>
+                                        <li><a class="dropdown-item" href="#">Borard Games</a></li>
+                                        <li><a class="dropdown-item" href="#">Toys</a></li>       
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">
+                                        Electronics
+                                    </a>
+                                    <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 shadow">
+                                        <li><a class="dropdown-item" href="#">PC & Laptops</a></li>
+                                        <li><a class="dropdown-item" href="#"> Tablets </a></li>
+                                        <li><a class="dropdown-item" href="#"> Mobile Phones </a></li>
+                                        <li><a class="dropdown-item" href="#"> TV's & Monitors </a></li>
+                                    </ul>
+                                </li>
+                              
+
+
+                                <li class="dropdown-submenu">
+                                    <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">
+                                        Sport & Activity
+                                    </a>
+                                    <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 shadow">
+                                        <li><a class="dropdown-item" href="#"> Sports Equipment </a></li>
+                                        <li><a class="dropdown-item" href="#"> Bikes </a></li>
+                                        <li><a class="dropdown-item" href="#"> Skating </a></li>
+                                        <li><a class="dropdown-item" href="#"> Scooting </a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">
+                                        Collectables
+                                    </a>
+                                    <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 shadow">
+                                        <li><a class="dropdown-item" href="#"> Trading Cards & Stickers </a></li>
+                                        <li><a class="dropdown-item" href="#"> Coins & Stamps </a></li>
+                                        <li><a class="dropdown-item" href="#"> Art </a></li>
+                                        <li><a class="dropdown-item" href="#"> Vinyl Records </a></li>
+                                    </ul>
+                                </li>
+
+
+
+                            </ul>
                         </li>
+                        <!-- End Level one -->
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">
                                 SELL
                             </a>
-                            <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">CATEGORIES</a>
-                            <a class="dropdown-item" href="#">SELLING FORM</a>
-                            </div>
-                        </li>
+                            <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0 shadow">
 
+                                <li class="dropdown-submenu">
+                                    <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">
+                                        Fun & Games
+                                    </a>
+                                    <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 shadow">
+                                        <li><a class="dropdown-item" href="#">Video Games</a></li>
+                                        <li><a class="dropdown-item" href="#">Consoles</a></li>
+                                        <li><a class="dropdown-item" href="#">Gadgets</a></li>
+                                        <li><a class="dropdown-item" href="#">Borard Games</a></li>
+                                        <li><a class="dropdown-item" href="#">Toys</a></li>       
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">
+                                        Electronics
+                                    </a>
+                                    <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 shadow">
+                                        <li><a class="dropdown-item" href="#">PC & Laptops</a></li>
+                                        <li><a class="dropdown-item" href="#"> Tablets </a></li>
+                                        <li><a class="dropdown-item" href="#"> Mobile Phones </a></li>
+                                        <li><a class="dropdown-item" href="#"> TV's & Monitors </a></li>
+                                    </ul>
+                                </li>                              
+
+
+                                <li class="dropdown-submenu">
+                                    <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">
+                                        Sport & Activity
+                                    </a>
+                                    <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 shadow">
+                                        <li><a class="dropdown-item" href="#"> Sports Equipment </a></li>
+                                        <li><a class="dropdown-item" href="#"> Bikes </a></li>
+                                        <li><a class="dropdown-item" href="#"> Skating </a></li>
+                                        <li><a class="dropdown-item" href="#"> Scooting </a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">
+                                        Collectables
+                                    </a>
+                                    <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 shadow">
+                                        <li><a class="dropdown-item" href="#"> Trading Cards & Stickers </a></li>
+                                        <li><a class="dropdown-item" href="#"> Coins & Stamps </a></li>
+                                        <li><a class="dropdown-item" href="#"> Art </a></li>
+                                        <li><a class="dropdown-item" href="#"> Vinyl Records </a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+                    
+           
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 TRADE
                             </a>
-                            <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">CATEGORIES</a>
-                            <a class="dropdown-item" href="#">TRADING FORM</a>
-                            </div>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">CATEGORIES</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">SELLING FORM</a>
+                                </li>                         
+                            </ul>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 BORROW
                             </a>
-                            <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">CATEGORIES</a>
-                            <a class="dropdown-item" href="#">LISTINGS</a>
-                            <a class="dropdown-item" href="#">CHECKOUT</a>
-                            </div>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">CATEGORIES</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">SELLING FORM</a>
+                                </li>                         
+                            </ul>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 SERVICES
                             </a>
-                            <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">CATEGORIES</a>
-                            <a class="dropdown-item" href="#">LISTINGS</a>
-                            </div>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">CATEGORIES</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">SELLING FORM</a>
+                                </li>                         
+                            </ul>
                         </li>
 
                     </ul>
@@ -201,6 +313,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     
+    <script>
+        $(function() {
+            // ------------------------------------------------------- //
+            // Multi Level dropdowns
+            // ------------------------------------------------------ //
+            $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function(event) {
+                event.preventDefault();
+                event.stopPropagation();
+
+                $(this).siblings().toggleClass("show");
+
+
+                if (!$(this).next().hasClass('show')) {
+                    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+                }
+                $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+                    $('.dropdown-submenu .show').removeClass("show");
+                });
+
+            });
+        });
+
+    </script>
   
     @stack('js')
 
